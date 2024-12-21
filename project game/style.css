@@ -1,0 +1,23 @@
+body {
+    background: #222;
+    margin: 20px;
+    overflow: hidden; /* Prevents scrollbars if SVG extends beyond the viewport */
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+span {
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.3;
+    position: absolute; /* Makes positioning more flexible if needed */
+    bottom: 20px; /* Positions text towards the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
